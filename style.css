@@ -1,0 +1,25 @@
+.console-wrapper {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 40px;
+}
+.console-topbar {
+    height: 30px;
+    background-color: black;
+    opacity: 0.750;
+    color: white;
+}
+.console-body{
+    height: 270px;
+    background-color: gray;
+    opacity: 0.950;
+    color: white;
+    overflow: auto;
+}
+button{
+    display: inline-block;
+ }
+.console-topbar, .console-body {
+     padding-left: 10px;
+ }
