@@ -1,14 +1,15 @@
 .console-wrapper {
     position: absolute;
     width: 500px;
-    height: 320px;
-    border-radius: 40px;
+    border-radius: 4px;
 }
 .console-topbar {
     height: 30px;
     background-color: black;
     opacity: 0.750;
     color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .console-body{
     height: 270px;
@@ -16,10 +17,11 @@
     opacity: 0.950;
     color: white;
     overflow: auto;
+    border-bottom-left-radius: 6px;
 }
 button{
     display: inline-block;
- }
+}
 .console-topbar, .console-body {
      padding-left: 10px;
- }
+}
